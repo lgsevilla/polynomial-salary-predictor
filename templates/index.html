@@ -59,11 +59,15 @@
 <div class="container">
     <h1>Polynomial Salary Predictor</h1>
     <form method="POST">
-        <input type="number" step="any" name="level" required placeholder="Enter position level (e.g. 6.5)">
+        <input type="number" step="any" name="level" required placeholder="Enter position level (e.g. 6.5)" min="1">
         <button type="submit">Predict</button>
     </form>
     {% if prediction is not none %}
     <div class="result">Predicted Salary: ${{ prediction }}</div>
+    {% endif %}
+
+    {% if error %}
+    <div class="result" style="color: red;">{{ error }}</div>
     {% endif %}
 </div>
 </body>

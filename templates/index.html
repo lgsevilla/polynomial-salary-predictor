@@ -64,6 +64,9 @@
     </form>
     {% if prediction is not none %}
     <div class="result">Predicted Salary: ${{ prediction }}</div>
+    <div>
+        <img src="{{ url_for('static', filename='prediction.png') }}" alt="Prediction Plot" style="margin-top: 20px; max-width: 100%;">
+    </div>
     {% endif %}
 
     {% if error %}

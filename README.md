@@ -57,7 +57,7 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 - [x] Add input validation
 - [x] Add error handling
 - [x] Add styling (CSS)
-- [ ] Add prediction plot
+- [x] Add prediction plot
 - [ ] Deploy to Heroku or Render
 
 ---

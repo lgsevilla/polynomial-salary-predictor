@@ -1,7 +1,8 @@
 # Polynomial Salary Predictor
 
-This project is for a machine learning web app that predicts salaries based on position level using **Polynomial Regression**. It is built entirely in Python using Scikit-learn for modeling and Flask for the web interface
+This project is for a machine learning web app that predicts salaries based on position level using **Polynomial Regression**. It is built entirely in Python using Scikit-learn for modeling and Flask for the web interface.
 
+![App Screenshot](screenshot.png)
 ---
 
 ## 📁 Project Structure

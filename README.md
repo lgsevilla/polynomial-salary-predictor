@@ -54,11 +54,11 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ## 🛠️ To Do
 
-[✔️] Add input validation
-[✔️] Add error handling
-[✔️] Add styling (CSS)
-[ ] Add prediction plot
-[ ] Deploy to Heroku or Render
+- [✔️] Add input validation
+- [✔️] Add error handling
+- [✔️] Add styling (CSS)
+- [ ] Add prediction plot
+- [ ] Deploy to Heroku or Render
 
 ---
 
